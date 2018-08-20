@@ -21,7 +21,7 @@ docker run -d \
            -p 9092:9092 \
            -e KAFKA_ADVERTISED_HOST_NAME=localhost \
            -e KAFKA_CREATE_TOPICS="test-topic:1:1" \
-           anmolnagpal/kafka:2.0.0
+           anmolnagpal/kafka:2.0.0-alpine
 ```
 
 ## Documentation
